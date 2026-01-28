@@ -1,8 +1,11 @@
+// server.js
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const { v4: uuidv4 } = require("uuid");
 const WebSocket = require("ws");
+const fs = require("fs/promises");
+const path = require("path");
 
 const app = express();
 app.use(cors());
@@ -10,13 +13,35 @@ app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 4000;
 
-// In-memory stores (prototype)
-const users = {};      // username -> { password, id }
-const sessions = {};   // token -> username
-const servers = {};    // serverId -> { id, name, invite, channels: {name: [messages]}, members: Set, bans: Set }
-const dms = {};        // "alice:bob" -> [ { id, from, to, text, ts } ]
+// --- File paths ---
+const DATA_DIR = path.join(__dirname, "data");
+const USERS_FILE = path.join(DATA_DIR, "users.json");
+const SESSIONS_FILE = path.join(DATA_DIR, "sessions.json");
+const SERVERS_FILE = path.join(DATA_DIR, "servers.json");
+const DMS_FILE = path.join(DATA_DIR, "dms.json");
 
-// helpers
+// --- File helpers ---
+async function readJSON(file) {
+  try {
+    const data = await fs.readFile(file, "utf8");
+    return JSON.parse(data);
+  } catch {
+    return {};
+  }
+}
+
+async function writeJSON(file, obj) {
+  await fs.mkdir(DATA_DIR, { recursive: true });
+  await fs.writeFile(file, JSON.stringify(obj, null, 2), "utf8");
+}
+
+// --- Load data ---
+let users = await readJSON(USERS_FILE);
+let sessions = await readJSON(SESSIONS_FILE);
+let servers = await readJSON(SERVERS_FILE);
+let dms = await readJSON(DMS_FILE);
+
+// --- Helpers ---
 function genInvite(len = 6) {
   const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   let s = "";
@@ -25,25 +50,27 @@ function genInvite(len = 6) {
 }
 
 function dmKey(a, b) {
-  return [a, b].sort().join(":"); // ensures same key for both
+  return [a, b].sort().join(":");
 }
 
 // --- Auth routes ---
-app.post("/signup", (req, res) => {
+app.post("/signup", async (req, res) => {
   const { username, password } = req.body;
   if (!username || !password) return res.status(400).json({ error: "username & password required" });
   if (users[username]) return res.status(409).json({ error: "username exists" });
   users[username] = { password, id: uuidv4() };
-  return res.json({ ok: true });
+  await writeJSON(USERS_FILE, users);
+  res.json({ ok: true });
 });
 
-app.post("/login", (req, res) => {
+app.post("/login", async (req, res) => {
   const { username, password } = req.body;
   const u = users[username];
   if (!u || u.password !== password) return res.status(401).json({ error: "invalid credentials" });
   const token = uuidv4();
   sessions[token] = username;
-  return res.json({ token, username });
+  await writeJSON(SESSIONS_FILE, sessions);
+  res.json({ token, username });
 });
 
 app.get("/session/:token", (req, res) => {
@@ -53,34 +80,37 @@ app.get("/session/:token", (req, res) => {
 });
 
 // --- Server management ---
-app.post("/server", (req, res) => {
+app.post("/server", async (req, res) => {
   const { name, token } = req.body;
   if (!name) return res.status(400).json({ error: "name required" });
   const id = uuidv4();
   const invite = genInvite(8);
   const username = token && sessions[token];
-  servers[id] = { id, name, invite, owner: username || null, channels: { general: [] }, members: new Set(), bans: new Set() };
-  if (username) servers[id].members.add(username);
-  return res.json({ id, name, invite });
+  servers[id] = { id, name, invite, owner: username || null, channels: { general: [] }, members: username ? [username] : [], bans: [] };
+  await writeJSON(SERVERS_FILE, servers);
+  res.json({ id, name, invite });
 });
 
-app.post("/join/:invite", (req, res) => {
+app.post("/join/:invite", async (req, res) => {
   const { invite } = req.params;
   const { token } = req.body;
   const username = token && sessions[token];
   if (!username) return res.status(401).json({ error: "invalid session/token" });
   const sid = Object.keys(servers).find(s => servers[s].invite === invite);
   if (!sid) return res.status(404).json({ error: "invite not found" });
-  if (servers[sid].bans.has(username)) return res.status(403).json({ error: "you are banned" });
-  servers[sid].members.add(username);
-  return res.json({ ok: true, serverId: sid, name: servers[sid].name });
+  if (servers[sid].bans.includes(username)) return res.status(403).json({ error: "you are banned" });
+  if (!servers[sid].members.includes(username)) servers[sid].members.push(username);
+  await writeJSON(SERVERS_FILE, servers);
+  res.json({ ok: true, serverId: sid, name: servers[sid].name });
 });
 
 app.get("/servers", (req, res) => {
   const token = req.query.token;
   const username = token && sessions[token];
   if (!username) return res.status(401).json({ error: "invalid session/token" });
-  const mine = Object.values(servers).filter(s => s.members.has(username)).map(s => ({ id: s.id, name: s.name }));
+  const mine = Object.values(servers)
+    .filter(s => s.members.includes(username))
+    .map(s => ({ id: s.id, name: s.name }));
   res.json(mine);
 });
 
@@ -90,14 +120,15 @@ app.get("/channels/:serverId", (req, res) => {
   res.json(Object.keys(servers[sid].channels));
 });
 
-app.post("/channels/:serverId", (req, res) => {
+app.post("/channels/:serverId", async (req, res) => {
   const sid = req.params.serverId;
   const { name } = req.body;
   if (!servers[sid]) return res.status(404).json({ error: "server not found" });
   if (!name) return res.status(400).json({ error: "name required" });
   if (servers[sid].channels[name]) return res.status(409).json({ error: "channel exists" });
   servers[sid].channels[name] = [];
-  return res.json({ ok: true, channel: name });
+  await writeJSON(SERVERS_FILE, servers);
+  res.json({ ok: true, channel: name });
 });
 
 app.get("/history/:serverId/:channel", (req, res) => {
@@ -108,49 +139,40 @@ app.get("/history/:serverId/:channel", (req, res) => {
 });
 
 // --- DMs ---
-// list users you have DMs with
 app.get("/dms", (req, res) => {
   const token = req.query.token;
   const username = token && sessions[token];
   if (!username) return res.status(401).json({ error: "invalid session" });
-
   const partners = Object.keys(dms)
     .filter(k => k.includes(username))
     .map(k => k.split(":").find(u => u !== username));
-  
   res.json(partners);
 });
 
-// get DM history with a target
 app.get("/dm/:target", (req, res) => {
   const token = req.query.token;
   const username = token && sessions[token];
   if (!username) return res.status(401).json({ error: "invalid session" });
-
-  const target = req.params.target;
-  const key = dmKey(username, target);
+  const key = dmKey(username, req.params.target);
   res.json(dms[key] || []);
 });
 
-// send a DM
-app.post("/dm/:target", (req, res) => {
+app.post("/dm/:target", async (req, res) => {
   const { token, text } = req.body;
   const username = token && sessions[token];
   if (!username) return res.status(401).json({ error: "invalid session" });
-
   const target = req.params.target;
   const key = dmKey(username, target);
   if (!dms[key]) dms[key] = [];
-
   const msg = { id: uuidv4(), from: username, to: target, text, ts: Date.now() };
   dms[key].push(msg);
+  await writeJSON(DMS_FILE, dms);
 
   wss.clients.forEach(c => {
     if (c.readyState === 1 && (c.username === username || c.username === target)) {
       c.send(JSON.stringify({ type: "dm", message: msg }));
     }
   });
-
   res.json({ ok: true, message: msg });
 });
 
@@ -172,23 +194,20 @@ wss.on("connection", ws => {
   ws.isAlive = true;
   ws.on("pong", () => ws.isAlive = true);
 
-  ws.on("message", raw => {
+  ws.on("message", async raw => {
     let data;
     try { data = JSON.parse(raw); } catch { return; }
 
+    // --- Server channel join ---
     if (data.type === "joinServer") {
       const { token, serverId, channel } = data;
       const username = token && sessions[token];
-      if (!username) {
-        ws.send(JSON.stringify({ type: "error", error: "invalid token" }));
+      if (!username || !servers[serverId] || !servers[serverId].members.includes(username)) {
+        ws.send(JSON.stringify({ type: "error", error: "invalid token or not member" }));
         return;
       }
-      if (!servers[serverId] || !servers[serverId].members.has(username)) {
-        ws.send(JSON.stringify({ type: "error", error: "not a member of server" }));
-        return;
-      }
-      if (servers[serverId].bans.has(username)) {
-        ws.send(JSON.stringify({ type: "error", error: "you are banned" }));
+      if (servers[serverId].bans.includes(username)) {
+        ws.send(JSON.stringify({ type: "error", error: "banned" }));
         return;
       }
       ws.username = username;
@@ -205,9 +224,9 @@ wss.on("connection", ws => {
       return;
     }
 
+    // --- Channel switch ---
     if (data.type === "switch") {
-      const { channel } = data;
-      ws.channel = channel;
+      ws.channel = data.channel;
       if (!ws.serverId) return;
       const users = Array.from(new Set(
         Array.from(wss.clients)
@@ -219,9 +238,10 @@ wss.on("connection", ws => {
       return;
     }
 
+    // --- Server message ---
     if (data.type === "message") {
       if (!ws.serverId) return;
-      let username = ws.username || (data.token && sessions[data.token]) || "anonymous";
+      const username = ws.username || (data.token && sessions[data.token]) || "anonymous";
       const serverId = ws.serverId;
       const channel = ws.channel || data.channel || "general";
 
@@ -229,12 +249,15 @@ wss.on("connection", ws => {
         ws.send(JSON.stringify({ type: "error", error: "channel not found" }));
         return;
       }
+
       const msg = { id: uuidv4(), username, text: data.text, ts: Date.now(), serverId, channel };
       servers[serverId].channels[channel].push(msg);
+      await writeJSON(SERVERS_FILE, servers);
       broadcast({ type: "message", message: msg }, serverId, channel);
       return;
     }
 
+    // --- DM ---
     if (data.type === "dm") {
       const { to, text, token } = data;
       const from = token && sessions[token];
@@ -242,9 +265,9 @@ wss.on("connection", ws => {
 
       const key = dmKey(from, to);
       if (!dms[key]) dms[key] = [];
-
       const msg = { id: uuidv4(), from, to, text, ts: Date.now() };
       dms[key].push(msg);
+      await writeJSON(DMS_FILE, dms);
 
       wss.clients.forEach(c => {
         if (c.readyState === 1 && (c.username === from || c.username === to)) {
