@@ -189,6 +189,8 @@ async function main() {
     dms[key].push(msg);
     await writeJSON(DMS_FILE, dms);
 
+    console.log(`[DM] ${username} -> ${target}: ${text}`);
+
     wss.clients.forEach(c => {
       if (c.readyState === 1 && (c.username === username || c.username === target)) {
         c.send(JSON.stringify({ type: "dm", message: msg }));
@@ -271,6 +273,9 @@ async function main() {
         const msg = { id: uuidv4(), username, text: data.text, ts: Date.now(), serverId, channel };
         servers[serverId].channels[channel].push(msg);
         await writeJSON(SERVERS_FILE, servers);
+
+        console.log(`[${serverId}] [${channel}] [${username}]: ${data.text}`);
+
         broadcast({ type: "message", message: msg }, serverId, channel);
         return;
       }
@@ -285,6 +290,8 @@ async function main() {
         const msg = { id: uuidv4(), from, to, text, ts: Date.now() };
         dms[key].push(msg);
         await writeJSON(DMS_FILE, dms);
+
+        console.log(`[DM] ${from} -> ${to}: ${text}`);
 
         wss.clients.forEach(c => {
           if (c.readyState === 1 && (c.username === from || c.username === to)) {
@@ -307,6 +314,7 @@ async function main() {
     });
   });
 
+  // --- WebSocket ping for alive clients ---
   setInterval(() => {
     wss.clients.forEach(ws => {
       if (!ws.isAlive) return ws.terminate();
@@ -314,6 +322,35 @@ async function main() {
       ws.ping();
     });
   }, 30000);
+
+  // --- Delete messages individually after 24 hours ---
+  const MESSAGE_LIFETIME_MS = 24 * 60 * 60 * 1000;
+  setInterval(async () => {
+    let changed = false;
+
+    // Clean server channels
+    for (const sid in servers) {
+      const server = servers[sid];
+      if (!server.channels) continue;
+      for (const ch in server.channels) {
+        const oldLength = server.channels[ch].length;
+        server.channels[ch] = server.channels[ch].filter(msg => Date.now() - msg.ts < MESSAGE_LIFETIME_MS);
+        if (server.channels[ch].length !== oldLength) changed = true;
+      }
+    }
+
+    // Clean DMs
+    for (const key in dms) {
+      const oldLength = dms[key].length;
+      dms[key] = dms[key].filter(msg => Date.now() - msg.ts < MESSAGE_LIFETIME_MS);
+      if (dms[key].length !== oldLength) changed = true;
+    }
+
+    if (changed) {
+      await writeJSON(SERVERS_FILE, servers);
+      await writeJSON(DMS_FILE, dms);
+    }
+  }, 60 * 1000); // check every minute
 }
 
 // --- Run main ---
