@@ -1,0 +1,1352 @@
+{
+  "bb70c9c3-7b34-4d22-88b5-3678b0d6e971": {
+    "id": "bb70c9c3-7b34-4d22-88b5-3678b0d6e971",
+    "name": "testing server",
+    "invite": "CsOU0avt",
+    "owner": "kyklos",
+    "channels": {
+      "general": []
+    },
+    "members": [
+      "kyklos",
+      "RELINK"
+    ],
+    "bans": []
+  },
+  "7e9e7594-d325-427a-a476-c701747cf664": {
+    "id": "7e9e7594-d325-427a-a476-c701747cf664",
+    "name": "CsOU0avt",
+    "invite": "W3Byo0Fk",
+    "owner": "RELINK",
+    "channels": {
+      "general": []
+    },
+    "members": [
+      "RELINK"
+    ],
+    "bans": []
+  },
+  "635bf182-99f7-4266-b7e3-1ccf6ef1d208": {
+    "id": "635bf182-99f7-4266-b7e3-1ccf6ef1d208",
+    "name": "eee",
+    "invite": "BkPKj3J6",
+    "owner": "evilchicken_eeeeeeee",
+    "channels": {
+      "general": []
+    },
+    "members": [
+      "evilchicken_eeeeeeee"
+    ],
+    "bans": []
+  },
+  "c8ce2e1c-7532-47c7-a553-200259d72fa2": {
+    "id": "c8ce2e1c-7532-47c7-a553-200259d72fa2",
+    "name": "e",
+    "invite": "A3v7XtOk",
+    "owner": "IAnimateEvenly",
+    "channels": {
+      "general": []
+    },
+    "members": [
+      "IAnimateEvenly"
+    ],
+    "bans": []
+  },
+  "fce46f43-3684-423b-b029-ad3c9c5cc663": {
+    "id": "fce46f43-3684-423b-b029-ad3c9c5cc663",
+    "name": "a",
+    "invite": "I4y697er",
+    "owner": "IAnimateEvenly",
+    "channels": {
+      "general": []
+    },
+    "members": [
+      "IAnimateEvenly"
+    ],
+    "bans": []
+  },
+  "df01916a-515c-4c53-9e50-b84566113ccb": {
+    "id": "df01916a-515c-4c53-9e50-b84566113ccb",
+    "name": "e",
+    "invite": "RxhAgiKz",
+    "owner": "MrGuineaBird",
+    "channels": {
+      "general": []
+    },
+    "members": [
+      "MrGuineaBird"
+    ],
+    "bans": []
+  },
+  "4e288c17-f8e2-4ce6-8fd6-02e730cc6a28": {
+    "id": "4e288c17-f8e2-4ce6-8fd6-02e730cc6a28",
+    "name": "e",
+    "invite": "VUNbXpKg",
+    "owner": "MrGuineaBird",
+    "channels": {
+      "general": []
+    },
+    "members": [
+      "MrGuineaBird"
+    ],
+    "bans": []
+  },
+  "9ff92124-ee7c-40c1-9f5d-e225b155f3c0": {
+    "id": "9ff92124-ee7c-40c1-9f5d-e225b155f3c0",
+    "name": "hello",
+    "invite": "4yyoc8VS",
+    "owner": "kyklos",
+    "channels": {
+      "general": []
+    },
+    "members": [
+      "kyklos"
+    ],
+    "bans": []
+  },
+  "e61e36e4-79c9-4e1f-8950-c7357cd4631b": {
+    "id": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+    "name": "Kyklos Online",
+    "invite": "HgYu9H5I",
+    "owner": "kyklos",
+    "channels": {
+      "general": [
+        {
+          "id": "b5f42623-7291-4672-9862-b4be15fb46f0",
+          "username": "kyklos",
+          "text": "WE CAN USE GENERAL AGAIN",
+          "ts": 1769799597135,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "533b8fa9-4a83-48e7-aa2d-468131d025be",
+          "username": "RELINK",
+          "text": "@kyklos",
+          "ts": 1769806604914,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "05747347-0078-41c2-9454-58939ddd461d",
+          "username": "RELINK",
+          "text": "@RELINK",
+          "ts": 1769806613515,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "abc4ccfa-38db-47ed-9650-724558ad2671",
+          "username": "kyklos",
+          "text": "@RELINK",
+          "ts": 1769807101262,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "1ab9cd5c-f2a4-4a3d-bb2d-1fabee381e01",
+          "username": "kyklos",
+          "text": "@DOlan",
+          "ts": 1769807106432,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "d99f2c13-c5b5-4018-a331-767720d0a706",
+          "username": "kyklos",
+          "text": "how",
+          "ts": 1769807114887,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "782ff6da-9523-4385-aa27-de33796633f0",
+          "username": "kyklos",
+          "text": "@rock",
+          "ts": 1769807710274,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "f06c574f-091c-40d0-962e-1d1980deca34",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769807710275,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "75fd8c14-3d19-4b6c-8332-1543d8a80895",
+          "username": "kyklos",
+          "text": "@rock",
+          "ts": 1769807713564,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "cb79413b-dcb7-4382-a933-318a3ecec4e0",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769807713565,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "0e3ddf57-4ed1-4fdc-881d-425564f0712e",
+          "username": "kyklos",
+          "text": "@rock",
+          "ts": 1769807714611,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "3bbc1815-4f77-4243-ac85-6345b336c4ec",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769807714612,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "5c6dd4bb-b2f5-4a86-a07d-62063abb43d2",
+          "username": "kyklos",
+          "text": "@rock",
+          "ts": 1769807716144,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "0913d38e-6742-42f0-b825-1517dec37707",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769807716145,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "63c8d673-5b55-4435-9c00-71beeb55d931",
+          "username": "kyklos",
+          "text": "@RELINK give rock a badge",
+          "ts": 1769807725693,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "b6cde85b-e7ca-4629-b384-b668c297bd90",
+          "username": "RELINK",
+          "text": "@kyklos",
+          "ts": 1769807790183,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "a2f6390f-ebdb-48b8-8570-671eb066bb87",
+          "username": "RELINK",
+          "text": "NO",
+          "ts": 1769807792764,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "af9d7250-ff26-41c9-95a0-9662ce0104c3",
+          "username": "kyklos",
+          "text": "@RELINK",
+          "ts": 1769807795208,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "a086b5fe-1b0e-4f5f-bcb2-bbb4105bce57",
+          "username": "kyklos",
+          "text": "oh",
+          "ts": 1769807801086,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "ecc8d344-feff-460d-ad5d-e8fb2cfc2d8b",
+          "username": "kyklos",
+          "text": "its only on that end",
+          "ts": 1769807809835,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "7c019677-d8d2-430e-a26e-697a27328d01",
+          "username": "kyklos",
+          "text": "ok",
+          "ts": 1769807811580,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "dea5446d-a698-4b3d-b288-13635f825274",
+          "username": "kyklos",
+          "text": "@everyone",
+          "ts": 1769807814891,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "101bee14-67e7-4ec1-b8e0-1cdc0d95f9af",
+          "username": "RELINK",
+          "text": "haha",
+          "ts": 1769807818123,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "cd15528c-a414-44ae-9c20-bfa751b9cbdf",
+          "username": "RELINK",
+          "text": "that dont exist",
+          "ts": 1769807820348,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "5e672bca-77b7-4614-a3b4-ef46d7988889",
+          "username": "kyklos",
+          "text": "rock needs a badge so it isnt just a user",
+          "ts": 1769807834118,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "65dcff77-684f-483b-8056-54ab544adfc8",
+          "username": "RELINK",
+          "text": "is the username rock",
+          "ts": 1769807847067,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "d8255a37-da61-4f78-bf25-6f6f5a9f0311",
+          "username": "kyklos",
+          "text": "yes",
+          "ts": 1769807849202,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "fc2c44b7-086e-4ffb-a9e2-4d5761d0e8cb",
+          "username": "RELINK",
+          "text": "ok",
+          "ts": 1769807851434,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "347e5cf8-3014-4a02-b925-ccfdef168b2a",
+          "username": "kyklos",
+          "text": "i already register",
+          "ts": 1769807852060,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "b54e2e22-1bbc-4824-bbab-1c856e8bebd0",
+          "username": "kyklos",
+          "text": "@rock",
+          "ts": 1769807858838,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "95974702-8677-4332-bef3-92cae9623c63",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769807858838,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "6285b6ee-4562-46a6-92ce-1d9d58bd5a2a",
+          "username": "kyklos",
+          "text": "@rcok",
+          "ts": 1769807859931,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "2b1dfc72-ceb5-4996-aceb-049de70e4daf",
+          "username": "kyklos",
+          "text": "@rock",
+          "ts": 1769807862367,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "3193ee5d-1e71-4476-bd13-61522e3882e1",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769807862367,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "41f1db81-7b9b-4056-ab6c-488e6cc99eca",
+          "username": "kyklos",
+          "text": "hi @rock",
+          "ts": 1769807864604,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "b8f0ec6a-7add-43ee-af01-2460b73c25e5",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769807864605,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "490ef658-ee19-45ba-a501-8e311478d4eb",
+          "username": "RELINK",
+          "text": "lmao",
+          "ts": 1769808080972,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "07c38ab3-6813-4e6a-ac89-8b5ccbd144fc",
+          "username": "RELINK",
+          "text": "the badge failed",
+          "ts": 1769808083271,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "84ca1624-204d-4ca1-8068-92af059aa1d7",
+          "username": "RELINK",
+          "text": "your relink ai",
+          "ts": 1769808086381,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "8d53c96c-46ba-4a22-83f0-d25589e89cd1",
+          "username": "kyklos",
+          "text": "NOO",
+          "ts": 1769808089222,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "291a50de-e673-4109-b392-3643c8916ec7",
+          "username": "kyklos",
+          "text": "@rock",
+          "ts": 1769808090946,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "c34f4d8c-7567-4488-8479-c71feb2c7a9b",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769808090947,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "9bc46340-9f6e-4167-ac4a-bdc521c0d427",
+          "username": "kyklos",
+          "text": "@rock why are you doing this",
+          "ts": 1769808098752,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "86f1b70c-221b-491f-aeaf-4cca7463faa5",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769808098753,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "9bd88ef6-084f-4d5e-938b-c4b9f1462b06",
+          "username": "RELINK",
+          "text": "@rock",
+          "ts": 1769808101080,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "e055cd3f-6394-419c-8222-ca92a0c19fd3",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769808101081,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "546ab27d-c7a3-4c26-a228-23da8d0e5c24",
+          "username": "kyklos",
+          "text": "@rock is relink peak",
+          "ts": 1769808110455,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "831a65ed-d369-4c00-b253-96af00a4e472",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769808110456,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "8b262c92-4ccf-4eeb-9eb6-5d3ec2c8653d",
+          "username": "kyklos",
+          "text": "wow",
+          "ts": 1769808115017,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "489fb16a-edff-46c0-a212-ef3fd81154c0",
+          "username": "kyklos",
+          "text": "incredible",
+          "ts": 1769808118246,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "f85a3dfa-c24e-4425-a26e-d49af32b9539",
+          "username": "RELINK",
+          "text": "truly",
+          "ts": 1769808121439,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "a76d5f21-9952-4783-9abb-ccfa7a7057a7",
+          "username": "RELINK",
+          "text": "amazing",
+          "ts": 1769808124076,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "67656a14-f2a8-4c99-b693-683f2ae4cae7",
+          "username": "RELINK",
+          "text": "@rock how amazing is this?",
+          "ts": 1769808132679,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "36fbacc5-64e2-413e-9076-09755e97dcd2",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769808132680,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "798a82dc-789d-4f49-a3ac-ea7d14f84021",
+          "username": "kyklos",
+          "text": "im gonna give it context of past 5 messages and of course the message that was send",
+          "ts": 1769808143876,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "8c57379f-8584-4e45-9f32-d5185424bf0c",
+          "username": "kyklos",
+          "text": "@rock is this true????",
+          "ts": 1769808155030,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "9963e5d3-d6d0-4719-b62b-60e80e9bae6f",
+          "username": "rock",
+          "text": "test",
+          "ts": 1769808155030,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "8c60fa45-0b5a-41d4-b62e-29c6be5a582c",
+          "username": "kyklos",
+          "text": "wow",
+          "ts": 1769808160231,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "29e4be72-88d2-4ae0-b8af-1381de0e3737",
+          "username": "RELINK",
+          "text": "im going to fix the",
+          "ts": 1769808180023,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "47599144-dec8-463a-9eb5-70410ae8ce19",
+          "username": "RELINK",
+          "text": "badge issue.",
+          "ts": 1769808183768,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "017a503e-fc58-428a-bd4c-574c5f3e9728",
+          "username": "RELINK",
+          "text": "so rock gets the badge",
+          "ts": 1769808187438,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "a9ba9dc0-9b16-4d25-998a-6f0950d8c67a",
+          "username": "kyklos",
+          "text": "yay",
+          "ts": 1769808203615,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "cb49b963-118f-485c-880d-921b93cf2861",
+          "username": "kyklos",
+          "text": "rock is gonna be like gpt4",
+          "ts": 1769808211826,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "ce92e30f-3d6b-450e-967f-65dff7868067",
+          "username": "kyklos",
+          "text": "so not that good",
+          "ts": 1769808213932,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "464b96e6-3f30-403e-99e6-03d81dbfd591",
+          "username": "kyklos",
+          "text": "but it can run on my pc",
+          "ts": 1769808217565,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "80c51cdb-0974-44c8-9e84-567490569fb7",
+          "username": "RELINK",
+          "text": "dont you have to pay for chatgpt 4",
+          "ts": 1769808712246,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "d5b01704-1ad6-4022-9c12-d9dc241dbb21",
+          "username": "RELINK",
+          "text": "@kyklos",
+          "ts": 1769808715114,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "eed9d97b-bd32-4999-94bb-75c4c91a8d76",
+          "username": "RELINK",
+          "text": "test",
+          "ts": 1769809131600,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "24309710-419d-4fad-8e0c-a63245a7305c",
+          "username": "RELINK",
+          "text": "tes",
+          "ts": 1769809139075,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "73610f2b-761d-4ee9-be67-ee2a7def0bcb",
+          "username": "RELINK",
+          "text": "IT WORKS",
+          "ts": 1769809141470,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "6b1aff66-58cb-4566-834e-ec72f425f903",
+          "username": "RELINK",
+          "text": "okay so now the dm issue is fine",
+          "ts": 1769809151544,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "916be331-92d9-457a-8a9d-6fb6e23d26b7",
+          "username": "kyklos",
+          "text": "YAY",
+          "ts": 1769809837304,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "41854823-b7e3-4aea-8dfd-4349b589e80c",
+          "username": "kyklos",
+          "text": "im getting rock to work",
+          "ts": 1769809840723,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        },
+        {
+          "id": "c112fbac-985d-4f0e-9065-c09460407019",
+          "username": "kyklos",
+          "text": "@rock hi",
+          "ts": 1769810020871,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general"
+        }
+      ],
+      "invite: HgYu9H5I": [],
+      "FUNNY": [],
+      "general USE THIS ONE": [
+        {
+          "id": "60b97198-c482-405a-b047-67a48ff23ead",
+          "username": "kyklos",
+          "text": "yes",
+          "ts": 1769775200843,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "203ac4ac-dda5-4a68-b2c8-28c43a9f2e9c",
+          "username": "kyklos",
+          "text": "very good",
+          "ts": 1769775203756,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "96b831ac-e3be-4fbb-8103-57d6d672cc07",
+          "username": "kyklos",
+          "text": "also",
+          "ts": 1769775207168,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "64bc52ca-158b-4a78-bd98-553b2190b02e",
+          "username": "kyklos",
+          "text": ".... ..",
+          "ts": 1769775212371,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "51fff549-673e-4565-8fdd-ca3df96dc459",
+          "username": "kyklos",
+          "text": "0123812733",
+          "ts": 1769775215402,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "22fe3775-c83f-408a-9297-0b233d98adf0",
+          "username": "kyklos",
+          "text": "12037",
+          "ts": 1769775216173,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "91426318-b504-40c1-871d-a4a26dd66602",
+          "username": "kyklos",
+          "text": "ppppppppppppppppppppppppppppppppppppppppppppppppppp",
+          "ts": 1769775226573,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "d2d76c66-e7b0-4bb8-9e22-8d0ce4d114ca",
+          "username": "kyklos",
+          "text": "im gonna play hypixel 1.8",
+          "ts": 1769775281107,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "a579eb80-8946-4741-9d30-88c4d9530c71",
+          "username": "kyklos",
+          "text": ".8",
+          "ts": 1769775283132,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "16f21b03-f999-4d27-8151-d42b4c57337a",
+          "username": "kyklos",
+          "text": "yayayyayayayyayayayaayyayayayay",
+          "ts": 1769775287527,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "8f50d06e-7f43-4003-901d-087b30f2a61d",
+          "username": "kyklos",
+          "text": "https://pixel.kyklos.online",
+          "ts": 1769775319784,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "101db25d-2dbb-4982-bcb0-154ce732c48a",
+          "username": "kyklos",
+          "text": "premium.kyklos.online 4 ip",
+          "ts": 1769775329239,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "4898a1b9-9f65-4191-8818-7bbb78fc5231",
+          "username": "RELINK",
+          "text": "what's the premium for",
+          "ts": 1769775680895,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "07f59113-6af8-4d0b-b32c-35c1db39b3f9",
+          "username": "RELINK",
+          "text": "relink uranium",
+          "ts": 1769775693597,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "4aa6820e-35df-4efc-b4b2-c9da61bda386",
+          "username": "kyklos",
+          "text": "the premium",
+          "ts": 1769775727864,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "06df0c0a-1d7c-4886-8df5-dccb8f739ea4",
+          "username": "kyklos",
+          "text": "is so you can connect java account",
+          "ts": 1769775736350,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "1ad83cab-3125-450f-a911-0c717e52d8b9",
+          "username": "kyklos",
+          "text": "to join servers",
+          "ts": 1769775740340,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "0e1413bf-3374-4425-8370-dc09f8d68095",
+          "username": "kyklos",
+          "text": "also new servers in 1.21",
+          "ts": 1769775743912,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "67b9a951-fc03-4fb2-9930-6935aa5b8873",
+          "username": "RELINK",
+          "text": "oh",
+          "ts": 1769775770526,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "1d871b8c-58b3-43fe-89eb-808eb1dd4cea",
+          "username": "kyklos",
+          "text": "HYPIXEL",
+          "ts": 1769775775386,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "7ab42651-d0e5-4938-8165-937a92a2dd41",
+          "username": "RELINK",
+          "text": "why weren't YOU ON DISCORD YESTERDAY",
+          "ts": 1769775780103,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "098fc524-c020-49d6-b9e3-53ba0abba8f3",
+          "username": "kyklos",
+          "text": "??????",
+          "ts": 1769775786191,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "65b11659-9117-4900-8a4c-f3222ff19041",
+          "username": "RELINK",
+          "text": "you were offline 80% of the day",
+          "ts": 1769775793394,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "c34376ae-a094-4274-afa7-b63b86871573",
+          "username": "kyklos",
+          "text": "my bad",
+          "ts": 1769775804927,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "f402b4da-59db-481a-a369-975e3f998307",
+          "username": "RELINK",
+          "text": "yes",
+          "ts": 1769775818827,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "8f561595-c348-4c6e-9383-b5bd32f32997",
+          "username": "RELINK",
+          "text": "your ad",
+          "ts": 1769775819905,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "332ee4ff-e04a-43f7-bfb2-e8c04a20a1dc",
+          "username": "RELINK",
+          "text": "ad",
+          "ts": 1769775820755,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "28f0f3c8-cc1d-4193-8958-172fc1b2682b",
+          "username": "RELINK",
+          "text": "typical school chromebook",
+          "ts": 1769775846615,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "189a198b-120f-4ffd-a8be-3546ad44682a",
+          "username": "RELINK",
+          "text": "the b key is stuck",
+          "ts": 1769775851956,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "ec0b24d4-94c2-487e-824e-0a5ac29a0903",
+          "username": "kyklos",
+          "text": "https://www.pinterest.com/pin/heheheha--400187116907683433/",
+          "ts": 1769775871588,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "6a7268dd-bc7f-4fdf-b68e-808d30e1c0bd",
+          "username": "RELINK",
+          "text": "also to fix bages in dms",
+          "ts": 1769775884660,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "82d7eb7a-f7c5-4343-a1fd-93c3c818773b",
+          "username": "kyklos",
+          "text": "yeah",
+          "ts": 1769775888737,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "df7aab74-f3f6-4aeb-b6c0-59c22e97098a",
+          "username": "RELINK",
+          "text": "I just have to copy and paste the badge code for server",
+          "ts": 1769775897498,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "39e6c31f-c494-4b99-9ca6-c83392a3cb1c",
+          "username": "RELINK",
+          "text": "into dms",
+          "ts": 1769775899438,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "89708d49-e4bb-4866-a7c2-3d9009882aea",
+          "username": "kyklos",
+          "text": "yes",
+          "ts": 1769775900684,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "7fd5fc7c-7cf4-45fb-adfe-cf02b4c9b3e9",
+          "username": "kyklos",
+          "text": "muy bueno",
+          "ts": 1769775907754,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "24069f03-8c0c-4f3f-8ecf-367a7f4790f8",
+          "username": "RELINK",
+          "text": "but to uhh get rid of servers",
+          "ts": 1769775909535,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "6069ad60-e388-4e96-a74c-25fdb14de7b4",
+          "username": "kyklos",
+          "text": "WE NEED MORE PEOPLE",
+          "ts": 1769775912519,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "5ed7b76b-7793-4cf6-96c9-6296611806df",
+          "username": "kyklos",
+          "text": "yeah",
+          "ts": 1769775915748,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "e9086351-9323-49ff-8831-ed8f8be91ed6",
+          "username": "kyklos",
+          "text": "idk how",
+          "ts": 1769775917315,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "e28055e6-1b46-4f6a-ad6c-5be79da63cc7",
+          "username": "RELINK",
+          "text": "you have to DO SERVER STUFF",
+          "ts": 1769775917816,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "71760dcf-f2e8-4500-81f5-7df3544c5f6b",
+          "username": "kyklos",
+          "text": "grrrr",
+          "ts": 1769775921730,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "224e64c9-35fa-416d-9c7b-7d23530f6210",
+          "username": "kyklos",
+          "text": "JARVIS HOW DO I DELETE SERVERS",
+          "ts": 1769775929801,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "788e419b-d7f2-483b-bc83-551ee80c18c9",
+          "username": "RELINK",
+          "text": "Heres what I found on the web:",
+          "ts": 1769775945789,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "ff170c98-1468-486d-aa24-24b211410533",
+          "username": "kyklos",
+          "text": "i have to go sorry",
+          "ts": 1769775976183,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "dd6243d1-94d4-48ca-8eda-b75159aadf9d",
+          "username": "RELINK",
+          "text": "ok",
+          "ts": 1769775978423,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "975037bc-a396-4e0b-887c-b4cb8d7beeb8",
+          "username": "kyklos",
+          "text": ":(",
+          "ts": 1769775979023,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "0300caf3-6078-4888-ad5c-e57031e0be97",
+          "username": "RELINK",
+          "text": "bye",
+          "ts": 1769775982369,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "d90380fc-11fe-4597-a46f-7e515c192bed",
+          "username": "kyklos",
+          "text": "bye",
+          "ts": 1769775983880,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "fd162c29-f2ec-43b1-a3b9-2205c638a395",
+          "username": "RELINK",
+          "text": "Bro I just found out the server limit is broken",
+          "ts": 1769776030008,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "5b997652-4a4c-4ce5-b0d5-bf4c2734e202",
+          "username": "RELINK",
+          "text": "its not 3 servers you made",
+          "ts": 1769776039012,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "2fd44f08-74d4-4cb2-84e1-364164db06ad",
+          "username": "RELINK",
+          "text": "its how many your just in",
+          "ts": 1769776043182,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "1779d297-57bc-4172-849d-e39a5a639a21",
+          "username": "RELINK",
+          "text": "even if you didn't make them",
+          "ts": 1769776048553,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "c281a896-8a89-4743-8aef-fc11770e56d8",
+          "username": "RELINK",
+          "text": "RAHHH everything needs to BE DONE ON THE SERVER",
+          "ts": 1769776152658,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "55b3253b-c80c-442a-b216-090582254526",
+          "username": "RELINK",
+          "text": "RAHHH",
+          "ts": 1769776154618,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "b15f9dbf-3953-4cbb-8633-41478ed97cde",
+          "username": "kyklos",
+          "text": "GRR",
+          "ts": 1769776774527,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "e4a73e2f-f000-45a8-83dd-6e5cf0c31e15",
+          "username": "kyklos",
+          "text": "I have to do this fricking presentation :sob:",
+          "ts": 1769776794538,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "28f15cf0-1859-4ccf-97cb-a036da926dec",
+          "username": "kyklos",
+          "text": "AHHH",
+          "ts": 1769776797487,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "27ac2b77-9b6b-42d5-a52e-e78a1326cadf",
+          "username": "RELINK",
+          "text": "haha",
+          "ts": 1769779346172,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "89d2ce2f-56e0-49db-b107-7ff214976c69",
+          "username": "RELINK",
+          "text": "in nemi we watch a video about an eyeless toad thingy",
+          "ts": 1769779361459,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "a2741d95-2276-4979-a9b6-f518435157cd",
+          "username": "RELINK",
+          "text": "light work",
+          "ts": 1769779373339,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "365e9fdd-1943-4f74-a451-797fe557e34e",
+          "username": "RELINK",
+          "text": "no reaction",
+          "ts": 1769779376240,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "512b7261-8313-473a-9935-5686d7310519",
+          "username": "kyklos",
+          "text": "hello",
+          "ts": 1769781697303,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "6b65aae3-c96d-4f66-a0c9-7b88d79419d5",
+          "username": "kyklos",
+          "text": "huh",
+          "ts": 1769781704451,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "4987a906-b28d-414d-87df-fed0fbe5af3c",
+          "username": "kyklos",
+          "text": "WE NEED TO DISTRIBUTE RELINK",
+          "ts": 1769781745592,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "4ddd1e87-04ec-44f9-ad13-d0a9349add3e",
+          "username": "kyklos",
+          "text": "also",
+          "ts": 1769781764777,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "b53d387c-9cc2-42e2-b798-e1fd7a1829c5",
+          "username": "kyklos",
+          "text": "they updated the Google classroom title lol",
+          "ts": 1769781780072,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "e7febc2a-7e60-4f81-8963-a1037a14e5dc",
+          "username": "kyklos",
+          "text": "its not Home - Classroom",
+          "ts": 1769781787964,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "887481bb-eecb-4c34-b648-2f03a2cc041c",
+          "username": "kyklos",
+          "text": "*now",
+          "ts": 1769781791398,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "3174cc7c-9a2e-4cb7-8f2f-729a02e6b645",
+          "username": "kyklos",
+          "text": "so",
+          "ts": 1769781792149,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "959071a6-d5a2-48d6-a15d-4fd6926d335e",
+          "username": "kyklos",
+          "text": "I have to update on my sites",
+          "ts": 1769781796612,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "0ce71e9f-860d-49f2-9328-aa682a8ff8f3",
+          "username": "kyklos",
+          "text": "which sucks",
+          "ts": 1769781798902,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "c8e833d2-7f07-454f-9b6f-43c3219f4356",
+          "username": "kyklos",
+          "text": "imagine if they did it because of people disguising the sites to look like that",
+          "ts": 1769781817462,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "aaf18b11-b00e-4161-bb95-17b6496fe5a5",
+          "username": "kyklos",
+          "text": "bruh",
+          "ts": 1769783438790,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        },
+        {
+          "id": "7a18f49c-050f-425c-a4ea-a9d16a4385b9",
+          "username": "kyklos",
+          "text": "dead server",
+          "ts": 1769783441584,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "general USE THIS ONE"
+        }
+      ],
+      "3.1415926535897932384626433832795": [
+        {
+          "id": "36b55434-9b27-4a8e-96e4-cd4a03ee9b13",
+          "username": "RELINK",
+          "text": "pi",
+          "ts": 1769780505703,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "3.1415926535897932384626433832795"
+        },
+        {
+          "id": "f717a12c-da12-4108-8970-ab269e9c2e4b",
+          "username": "kyklos",
+          "text": "pipipipipip",
+          "ts": 1769781710416,
+          "serverId": "e61e36e4-79c9-4e1f-8950-c7357cd4631b",
+          "channel": "3.1415926535897932384626433832795"
+        }
+      ],
+      "talk-to-real-ROCK!!!!": []
+    },
+    "members": [
+      "kyklos",
+      "RELINK",
+      "termite",
+      "DOlan"
+    ],
+    "bans": []
+  },
+  "e048162e-8ca1-4866-9f63-ef6b6cbd53e3": {
+    "id": "e048162e-8ca1-4866-9f63-ef6b6cbd53e3",
+    "name": "Devin",
+    "invite": "wo0UvzoI",
+    "owner": "DOlan",
+    "channels": {
+      "general": []
+    },
+    "members": [
+      "DOlan"
+    ],
+    "bans": []
+  }
+}

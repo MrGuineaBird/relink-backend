@@ -1,0 +1,92 @@
+{
+  "RELINK:kyklos": [
+    {
+      "id": "83574e56-b9e1-4896-ab9b-22acbc864624",
+      "from": "RELINK",
+      "to": "kyklos",
+      "text": "what's the premium for",
+      "ts": 1769775665591
+    },
+    {
+      "id": "b2766b88-9717-48bd-b895-154b79837359",
+      "from": "RELINK",
+      "to": "kyklos",
+      "text": "@RELINK",
+      "ts": 1769806759644
+    },
+    {
+      "id": "16e47e7b-aecf-43bc-99d1-b608bc62c102",
+      "from": "RELINK",
+      "to": "kyklos",
+      "text": "@RELINK",
+      "ts": 1769806925945
+    },
+    {
+      "id": "ab7b437a-e4a4-49c4-976d-756e7251e80f",
+      "from": "RELINK",
+      "to": "kyklos",
+      "text": "@kyklos",
+      "ts": 1769808679343
+    },
+    {
+      "id": "cffd1fb7-53af-49ed-a49d-b437c0bed3b7",
+      "from": "RELINK",
+      "to": "kyklos",
+      "text": "dont you have to pay for chatgpt 4",
+      "ts": 1769808684907
+    },
+    {
+      "id": "6de84f94-fef6-40aa-bb39-171f67b5c546",
+      "from": "RELINK",
+      "to": "kyklos",
+      "text": ".",
+      "ts": 1769808949643
+    },
+    {
+      "id": "5744bb8c-3ce2-4a72-b544-0d7c4b54fc55",
+      "from": "RELINK",
+      "to": "kyklos",
+      "text": ".",
+      "ts": 1769808965646
+    },
+    {
+      "id": "9e1e2175-f2ba-47e4-846a-890f3299b043",
+      "from": "RELINK",
+      "to": "kyklos",
+      "text": "okay yeah im gonna fix the dm stuff",
+      "ts": 1769808990371
+    },
+    {
+      "id": "acdfaf4a-f192-427c-9682-bf7cc1990a38",
+      "from": "RELINK",
+      "to": "kyklos",
+      "text": "thats annoying",
+      "ts": 1769808993852
+    }
+  ],
+  "DOlan:RELINK": [
+    {
+      "id": "b778cfa6-e856-4d7e-9269-0a8b2f6f590e",
+      "from": "RELINK",
+      "to": "DOlan",
+      "text": "RAHHH everything needs to BE DONE ON THE SERVER",
+      "ts": 1769776134456
+    },
+    {
+      "id": "4f7bedf1-9031-4dc6-8797-e770a46cab82",
+      "from": "RELINK",
+      "to": "DOlan",
+      "text": "RAAAAHHHH",
+      "ts": 1769776136545
+    }
+  ],
+  "DOlan:kyklos": [
+    {
+      "id": "87a8462d-5d3b-4d7b-be81-7033617f4940",
+      "from": "kyklos",
+      "to": "DOlan",
+      "text": "r u alive",
+      "ts": 1769775183727
+    }
+  ]
+}
