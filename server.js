@@ -159,6 +159,30 @@ async function main() {
     res.json(servers[serverId].channels[channel].slice(-200));
   });
 
+// --- Leave server ---
+app.post("/leave/:serverId", async (req, res) => {
+  const { token } = req.body;
+  const username = token && sessions[token];
+  const { serverId } = req.params;
+
+  if (!username) return res.status(401).json({ error: "invalid session/token" });
+  if (!servers[serverId]) return res.status(404).json({ error: "server not found" });
+
+  const index = servers[serverId].members.indexOf(username);
+  if (index === -1) return res.status(400).json({ error: "you are not a member of this server" });
+
+  // Remove user from members
+  servers[serverId].members.splice(index, 1);
+
+  // If server owner leaves, transfer ownership or null
+  if (servers[serverId].owner === username) {
+    servers[serverId].owner = servers[serverId].members[0] || null;
+  }
+
+  await writeJSON(SERVERS_FILE, servers);
+  res.json({ ok: true });
+});
+
   // --- DMs ---
   app.get("/dms", (req, res) => {
     const token = req.query.token;
@@ -355,4 +379,5 @@ async function main() {
 
 // --- Run main ---
 main().catch(err => console.error(err));
+
 
